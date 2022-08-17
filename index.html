@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Ribhav</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form class="form" onsubmit="submitClick()">
+      <div class="parent">
+        <div class="label">
+          <label> Name: </label>
+          <label> Email: </label>
+          <label> Password: </label>
+          <label> Date: </label>
+          <label> Gender: </label>
+          <label> Language: </label>
+          <label> Zipcode: </label>
+          <label> About: </label>
+        </div>
+        <div class="input">
+          <input type="text" placeholder="Name" required id="name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <input type="date" />
+          <div class="genderClass">
+            <div>Male: <input type="radio" name="gender" /></div>
+            <div>Female: <input type="radio" name="gender" /></div>
+            <div>Other: <input type="radio" name="gender" /></div>
+          </div>
+          <select name="languages" id="language">
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="punjabi">Punjabi</option>
+          </select>
+          <input type="text" placeholder="Zipcode" />
+          <input type="text" placeholder="Write about yourself..." />
+        </div>
+      </div>
+
+      <div class="btnDiv">
+        <input type="submit" class="btn" />
+      </div>
+    </form>
+  </body>
+  <script src="app.js"></script>
+</html>
