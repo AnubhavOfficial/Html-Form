@@ -1,4 +1,4 @@
 function submitClick() {
   let name = document.getElementById("name").value;
-  alert("My name is " + name);
+  alert("Hey " + name + "\nYour form has been submitted");
 }

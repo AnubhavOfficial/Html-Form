@@ -4,6 +4,7 @@ body{
     align-items: center;
     flex-direction: column;
     font-size: 17px;
+    font-family: cursive;
 }
 .form{
 border: solid;
@@ -26,6 +27,8 @@ width: 500px;
 }
 label{
     margin-left: 50px;
+    font-weight: bold;
+    color: rgb(24, 0, 117);
 }
 .input{
     width: 300px;
@@ -41,6 +44,13 @@ input{
     border: none;
     border-bottom: 2px solid blue;
     outline: none;
+    font-family: cursive;
+    font-size: 15px;
+    color: rgb(24, 0, 117);
+    font-weight: bold;
+}
+input::placeholder{
+    font-family: cursive;
 }
 input[type=radio]{
     width: 15px;
@@ -58,6 +68,7 @@ select{
 }
 .genderClass{
     display: flex;
+    font-size: 15px;
 }
 
 .btn{
